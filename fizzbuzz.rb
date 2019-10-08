@@ -7,6 +7,8 @@
       puts("Fizz\n")
     elsif i % 5 == 0
       puts("Buzz\n")
+    elsif i % 7 == 0
+      puts("git\n")
     else
       puts(i)
     end

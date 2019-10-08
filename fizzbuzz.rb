@@ -1,18 +1,12 @@
-#include <stdio.h>
-int main() {
-  int i;
+#! /usr/bin/env ruby
 
   for (i = 1; i <= 100; i++) {
-    if (i % 3 == 0 && i % 5 == 0){
-      printf("FizzBuzz\n");
-    } else if (i % 3 == 0) {
-      printf("Fizz\n");
-    } else if (i % 5 == 0) {
-      printf("Buzz\n");
-    } else {
-      printf("%d\n", i);
-    }
+    if i % 3 == 0 && i % 5 == 0
+      puts("FizzBuzz\n")
+    elsif i % 3 == 0
+      puts("Fizz\n")
+    elsif i % 5 == 0
+      puts("Buzz\n")
+    else
+      puts("%d\n", i);
   }
-
-  return 0;
-}
